@@ -106,6 +106,6 @@ public class Main {
 
     public static void main(String[] args) {
         Main Start = new Main();
-        Main.GETS();
+        Start.GETS();
     }
 }
