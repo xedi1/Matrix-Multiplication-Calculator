@@ -12,7 +12,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class seven {
+public class Main {
     private int[][] A;
     private int[][] B;
     private int[][] C;
@@ -21,7 +21,7 @@ public class seven {
     private Scanner Input;
 
 
-    public seven(){
+    public Main(){
         this.Input = new Scanner(System.in);
     }
 
@@ -105,7 +105,7 @@ public class seven {
     }
 
     public static void main(String[] args) {
-        seven Start = new seven();
-        Start.GETS();
+        Main Start = new Main();
+        Main.GETS();
     }
 }
